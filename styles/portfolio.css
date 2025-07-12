@@ -6,6 +6,14 @@
     "wdth" 100;
 }
 
+/* header */
+header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+    margin: none;
+}
+
 /* shared style */
 .text-primary{
     color: #FD6E0A;
@@ -20,13 +28,27 @@
     padding: 18px 35px 19px 36px;
     border-radius: 5px;
     border: none;
+}
 
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 0px;
 }
-header{
-    background-image: url('../images/developer.png'), url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: top left, right bottom;
+
+.section-description{
+    font-size: 18px;
+    font-weight: 100;
+    color: #757575;
+    margin-bottom: 0px;
+    
 }
+
+.common-bg{
+    background-color: #FFF8F3;
+}
+
 /* nav style */
 nav{
     display: flex;
@@ -54,6 +76,9 @@ nav ul li a{
     font-size: 20px;
 }
 
+
+
+
 /* banner style */
 .banner{
     display: flex;
@@ -63,12 +88,15 @@ nav ul li a{
 .banner-greetings{
     font-size: 45px;
     font-weight: 600;
+    margin-bottom: 0px;
 }
 
 .banner-title{
     color: #181818;
     font-size: 85px;
     font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .banner-description{
@@ -77,8 +105,37 @@ nav ul li a{
     font-size: 18px;
     font-weight: 100;
     color: #757575;
+    margin-top: 0px;
 }
 .banner-profile-pic{
     width: 584px;
     height: 676px;
+}
+
+/* About-Information Style */
+.about{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 130px;
+    padding: 130px 150px;
+}
+.information{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+.about-info-label{
+    font-weight: 100;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.about-info-text{
+    color: #474747;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0px;
 }
