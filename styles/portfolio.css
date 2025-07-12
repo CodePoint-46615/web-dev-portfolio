@@ -14,6 +14,10 @@ header{
     margin: none;
 }
 
+.align-center{
+    text-align: center;
+}
+
 /* shared style */
 .text-primary{
     color: #FD6E0A;
@@ -138,4 +142,22 @@ nav ul li a{
     font-weight: bold;
     font-size: 20px;
     margin-top: 0px;
+}
+
+/* skill section */
+.skills{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
